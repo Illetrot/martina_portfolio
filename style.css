@@ -78,19 +78,20 @@ main {
 }
 
 form {
-  display: block;
-  gap: 4em;
+  display: grid;
+  justify-content: center;
+  gap: 4px;
 }
 
-
-ul {
-  display: flex  
+input {
+  height: 18px;
+  padding: 2px;
+  
 }
 
 li {
   display: flex;  
-  list-style: none;  
-  justify-content: space-between;    
+  list-style: none;
 }
 
 .breadcrumb {
@@ -136,7 +137,7 @@ li {
 }
 
 .card {
-  padding: 2em;
+  padding: 8px;
 }
 
 .read-the-docs {
@@ -144,6 +145,7 @@ li {
 }
 
 button {
+  margin: 8px;
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -207,58 +209,12 @@ button:focus-visible {
   justify-content: center;
 }
 
-.switch {
-  display: flex;
-
-  /* Rounded border */
-  border-radius: 9999px;
-
-  /* Size */
-  height: 2rem;
-  width: 4rem;
-
-  /* Demo */
-  margin-bottom: 0.5rem;
-}
-
-.switch__input {
-  /* Hide the input */
-  display: none;
-}
-
-.switch__circle {
-  /* Rounded border */
-  border-radius: 9999px;
-
-  /* Size */
-  width: 2rem;
-
-  background-color: #fff;
-}
-
-/* ON status */
-.switch--on {
-  background-color: #357edd;
-  border: 1px solid #357edd;
-
-  /* Push the circle to the right */
-  justify-content: flex-end;
-}
-
-/* OFF status */
-.switch--off {
-  background-color: #d1d5db;
-  border: 1px solid #d1d5db;
-}
-.switch--off .switch__circle {
-  border: 1px solid #d1d5db;
-}
-
 .contact {
-  display: flex;
+  display: grid;
   justify-content: center;
-  gap: 4em;
+  
 }
+
 
 
 

@@ -89,6 +89,11 @@ input {
   
 }
 
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+
 li {
   display: flex;  
   list-style: none;
